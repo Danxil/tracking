@@ -9,6 +9,7 @@ app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
 
 var db = null;
+var dbPromise = null;
 
 MongoClient.connect('mongodb://tracking:tracking@localhost:27017/tracking').then(function(_db) {
     db = _db;
@@ -20,15 +21,13 @@ app.post('/', function(req, res) {
         console.log('Inserted key item: ' + JSON.stringify(req.body))
     }, function(err) {
         throw err;
+    }).then(function() {
+        res.send('vasia');
     });
-
-    res.send('vasia');
 });
 
 app.get('/', function(req, res) {
     db.collection('keyItems').find().toArray().then(function(result) {
-        console.log('222222', result)
-
         res.send(result);
     }, function(err) {
         throw err;
