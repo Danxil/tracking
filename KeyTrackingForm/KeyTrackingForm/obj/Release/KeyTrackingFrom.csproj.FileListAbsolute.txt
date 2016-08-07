@@ -1,0 +1,6 @@
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingForm\bin\Release\KeyTrackingForm.exe.config
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingForm\bin\Release\KeyTrackingForm.exe
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingForm\bin\Release\KeyTrackingForm.pdb
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingForm\obj\Release\KeyTrackingForm.exe
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingForm\obj\Release\KeyTrackingForm.pdb
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingForm\obj\Release\KeyTrackingFrom.csprojResolveAssemblyReference.cache

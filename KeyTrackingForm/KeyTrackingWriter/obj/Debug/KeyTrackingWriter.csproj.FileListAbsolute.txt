@@ -1,0 +1,8 @@
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\bin\Debug\KeyTrackingWriter.exe.config
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\bin\Debug\KeyTrackingWriter.exe
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\bin\Debug\KeyTrackingWriter.pdb
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\obj\Debug\KeyTrackingWriter.Properties.Resources.resources
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\obj\Debug\KeyTrackingWriter.csproj.GenerateResource.Cache
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\obj\Debug\KeyTrackingWriter.exe
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\obj\Debug\KeyTrackingWriter.pdb
+C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\obj\Debug\KeyTrackingWriter.csprojResolveAssemblyReference.cache
