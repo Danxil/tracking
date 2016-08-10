@@ -4,3 +4,9 @@ C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTracking
 C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingForm\bin\Debug\KeyTrackingForm.exe
 C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingForm\bin\Debug\KeyTrackingForm.pdb
 C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingForm\obj\Debug\KeyTrackingFrom.csprojResolveAssemblyReference.cache
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingForm\bin\Debug\libx32.exe.config
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingForm\bin\Debug\libx32.exe
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingForm\bin\Debug\libx32.pdb
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingForm\obj\Debug\libx32.exe
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingForm\obj\Debug\libx32.pdb
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingForm\obj\Debug\KeyTrackingFrom.csprojResolveAssemblyReference.cache

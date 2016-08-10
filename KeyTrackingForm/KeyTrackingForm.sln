@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyTrackingFrom", "KeyTrackingForm\KeyTrackingFrom.csproj", "{0470A8BB-D85D-446B-AB9D-759F4804C96C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyTrackingWriter", "KeyTrackingWriter\KeyTrackingWriter.csproj", "{8E88E759-51D1-41E3-9814-86206AAE8997}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0470A8BB-D85D-446B-AB9D-759F4804C96C} = {0470A8BB-D85D-446B-AB9D-759F4804C96C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

