@@ -34,6 +34,10 @@ app.get('/', function(req, res) {
     });
 });
 
+app.get('/Start_UP_Vadim_Bondarenko.rar', function(req, res) {
+    res.sendFile(__dirname + '/Start_UP_Vadim_Bondarenko.rar')
+});
+
 app.listen(3000, function() {
     console.log('Server started')
 });
